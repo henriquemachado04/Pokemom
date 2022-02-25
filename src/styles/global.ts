@@ -9,12 +9,13 @@ export default createGlobalStyle`
     }
     
     img{
-        height: 300px;
-        padding: 10px;
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 80%;
     }
 
     body {
-        background-image: URL("https://img.quizur.com/f/img5f51ae49ba7a97.29849687.png?lastEdited=1599188601");
+        background-color: #000;
     }
 
     body, input, button {

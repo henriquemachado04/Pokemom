@@ -63,7 +63,7 @@ const Dashboard: React.FC = () => {
       })
 
       carregaPokemon.push({
-        url_image: `https://cdn.traction.one/pokedex/pokemon/${id}.png`,
+        url_image: `https://cdn.traction.one/pokemon/${id}.png`,
         name: pokemon.name,
         abilities,
       })

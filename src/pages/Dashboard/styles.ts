@@ -8,6 +8,7 @@ export const Title = styled.div`
 
 export const Input = styled.div`
   margin-top: 50px;
+  text-align: center;
   input,
   button {
     padding: 20px 20px;
@@ -16,13 +17,13 @@ export const Input = styled.div`
     font-size: 20px;
   }
   input {
-    width: 800px;
-    border-radius: 16px 0 0 16px;
+    width: 500px;
+    border-radius: 80px 0 0 0;;
   }
   button {
-    background-color: #eaff00;
-    color: #1500ff;
-    border-radius: 0 16px 16px 0;
+    background-color: #3e4045;
+    color: #ffffff;
+    border-radius: 0 0 80px 0;
   }
   button:hover {
     background: ${shade(0.1, '#e1e391')};
